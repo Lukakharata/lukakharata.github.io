@@ -1,0 +1,46 @@
+---
+---
+
+<!DOCTYPE html>
+<html class="">
+<head>
+<link rel="apple-touch-icon" sizes="180x180" href="favi/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favi/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favi/favicon-16x16.png">
+<link rel="manifest" href="favi/manifest.json">
+<meta name="theme-color" content="#ffffff">
+  <meta charset="UTF-8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.data.settings.seo.description }}">
+  <meta rel="author" href="{{ site.data.settings.seo.rel-author }}">
+  <meta rel="publisher" href="{{ site.data.settings.seo.rel-publisher }}">
+
+  <title>{{ site.data.settings.title }}</title>
+
+  <link rel="stylesheet" href="{{ site.github.url }}/assets/css/all.css">
+  <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  {% include analytics.html %}
+</head>
+<body>
+
+{% include header.html %}
+
+{% include about.html %}
+
+{% include work.html %}
+
+{% include clients.html %}
+
+{% include contact.html %}
+
+{% include form.html %}
+
+
+{% include footer.html %}
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="{{ site.github.url }}/assets/js/functions.js"></script>
+</body>
+</html>
