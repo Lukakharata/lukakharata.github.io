@@ -1,5 +1,5 @@
 ---
-title: Flat Mobile UI/UX Concept
+title: Think Logo
 ---
 
-![Flat Mobile UI/UX Concept]({{ site.github.url }}/assets/img/work/proj-4/flatmobile-AyoubElred.jpg)
+![Flat Mobile UI/UX Concept]({{ site.github.url }}/assets/img/work/proj-4/logo2.jpg)
